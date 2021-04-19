@@ -80,8 +80,8 @@ if __name__ == '__main__':
     drive_service = GoogleDrive(
         credsPath=r"C:\your path\mycreds.txt")
     # <-upload csv->
-    drive_service.upload_csv(filepattern='Square',
-                             localFolder=r'C:\Users\B\Desktop\Download From Email Automation\2021-03-21',
+    drive_service.upload_csv(filepattern='your pattern: file name contains what',
+                             localFolder=r'C:\your file path',
                              folderId='your folder id')
     # <-upload csv->
 
