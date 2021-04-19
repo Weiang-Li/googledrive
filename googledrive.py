@@ -82,16 +82,16 @@ if __name__ == '__main__':
     # <-upload csv->
     drive_service.upload_csv(filepattern='Square',
                              localFolder=r'C:\Users\B\Desktop\Download From Email Automation\2021-03-21',
-                             folderId='1vSD8K67Q5ElwW2fLHBYkKQgnbVN0MGAv')
+                             folderId='your folder id')
     # <-upload csv->
 
     # <-list item names in folder->
-    filenames = drive_service.list_item_names_in_folder('1vSD8K67Q5ElwW2fLHBYkKQgnbVN0MGAv')
+    filenames = drive_service.list_item_names_in_folder('your folder id')
     print(filenames)
     # <-list item names in folder->
 
     # <-create folder->
-    drive_service.create_folder('1vSD8K67Q5ElwW2fLHBYkKQgnbVN0MGAv', 'test folder')
+    drive_service.create_folder('your folder id', 'test folder')
     # <-create folder->
 
     # <-example->
